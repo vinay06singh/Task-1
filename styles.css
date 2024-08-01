@@ -1,0 +1,19 @@
+.image-viewer {
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+}
+.image-viewer img {
+    width: 48%;
+    margin: 1%;
+}
+.controls {
+    border: 1px solid #ddd;
+    padding: 15px;
+    height: 300px;
+}
+.controls .form-group {
+    margin-bottom: 1rem;
+}
